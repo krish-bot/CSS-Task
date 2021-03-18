@@ -1,0 +1,103 @@
+span {
+  font-size: 1.5rem;
+  margin-left: 2rem;
+  color: rgb(255, 255, 247);
+}
+
+section {
+  border-bottom: solid 1px rgb(66, 66, 66);
+}
+
+footer {
+  text-align: center;
+  font: 1.2em sans-serif;
+  font-weight: 500;
+  color: rgb(95, 95, 95);
+}
+
+.banner {
+  background-color: rgb(47, 149, 218);
+}
+
+.banner-content > h1 {
+  font-size: 4rem;
+  height: 13px;
+}
+
+.banner-content > p {
+  font-size: 1.5rem;
+  height: 0px;
+}
+
+.banner-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: rgb(255, 255, 247);
+}
+
+.btn {
+  font-size: 1rem;
+  padding: 20px 30px 20px 30px;
+  color: rgb(255, 255, 247);
+  background-color: rgb(27, 27, 114);
+  border-radius: 25px;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.card {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 30px 250px 50px 150px;
+  color: rgb(95, 95, 95);
+}
+
+.flex {
+  margin-left: 100px;
+}
+
+@media only screen and (max-width: 600px) {
+  span {
+    font-size: 1.3rem;
+    margin-left: 1rem;
+    color: rgb(255, 255, 247);
+  }
+
+  img {
+    width: 300px;
+  }
+
+  .banner-content > h1 {
+    font-size: 2rem;
+    height: 13px;
+  }
+
+  .banner-content > p {
+    font-size: 0.7rem;
+    height: 0px;
+  }
+
+  .btn {
+    font-size: 0.7rem;
+    padding: 10px 20px 10px 20px;
+    color: rgb(255, 255, 247);
+    background-color: rgb(27, 27, 114);
+    border-radius: 25px;
+    font-weight: 700;
+    text-decoration: none;
+  }
+
+  .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 10px 15px 10px;
+    color: rgb(95, 95, 95);
+  }
+
+  .flex {
+    margin-left: 3px;
+  }
+}
