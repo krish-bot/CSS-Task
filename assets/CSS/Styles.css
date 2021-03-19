@@ -1,6 +1,7 @@
-span {
+.banner > p {
   font-size: 1.5rem;
-  margin-left: 2rem;
+  margin: auto;
+  padding: 2rem;
   color: rgb(255, 255, 247);
 }
 
@@ -38,7 +39,7 @@ footer {
 
 .btn {
   font-size: 1rem;
-  padding: 20px 30px 20px 30px;
+  padding: 20px 70px 20px 70px;
   color: rgb(255, 255, 247);
   background-color: rgb(27, 27, 114);
   border-radius: 25px;
@@ -58,9 +59,9 @@ footer {
 }
 
 @media only screen and (max-width: 600px) {
-  span {
+  .banner > p {
     font-size: 1.3rem;
-    margin-left: 1rem;
+    padding: 1rem;
     color: rgb(255, 255, 247);
   }
 
